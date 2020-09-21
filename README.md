@@ -45,7 +45,7 @@ git submodule update
 Updated: 06/12/2020 <br>
 I will demonstrate how to utilize the Data Migration Service (DMS) to Migrate from On-Premise SQL to the following Azure SQL PaaS Offerings:  
 
-# [Azure SQL Performance Tuning Demo](./azsql-performance-tuning-demos)<a name="azsqlperformancedemo"></a>
+# [Azure SQL Performance Tuning Demo](./azssql-performance-tuning-demos)<a name="azsqlperformancedemo"></a>
 Updated: 06/12/2020 <br>
 These demos discuss the monitoring Azure SQL Databases using Metrics and diagnostics logging, Query performance Insight, Azure SQL Analytics for Advance performance Monitoring, and contrast this with On-premise vs PaaS approaches 
 
