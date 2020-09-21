@@ -1,31 +1,65 @@
+# Azure SQL Demos, Reference Architectures & Best Practices
 
-# Contributing
+This repository is meant to organize South East' Microsoft's Open Azure SQL based repositories for customer ready demos.
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+# Keywords
+Azure, Azure SQL, Azure Elastic Scale, Azure Hyper Scale, Azure Synapse, Azure SQL Migration
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+## Table of contents
+1. [Getting Started](#Getting-Started)
+2. [Azure SQL Migration Demo](#azsqlmigrationdemo)
+3. [Azure SQL Performance Tuning Demo](#azsqlperformancedemo)
+4. [Azure SQL MI CLR Demo](#azsqlmiclrdemo)
+3. [Azure SQL Database DB (Coming Soon)](#azsqldbdemo)
+4. [Azure Elastic Scale Demo(Coming Soon)](#azelasticscaledemo)
+5. [Azure Hyper Scale Demo(Coming Soon)](#azhyperscaledemo)
+6. [Azure Synapse Demo(Coming Soon)](#azsynapsedemo)
+7. [Azure SQL MI Demo(Coming Soon)](#azssqlmidemo)
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
 
-Microsoft and any contributors grant you a license to the Microsoft documentation and other content
-in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
-see the [LICENSE](LICENSE) file, and grant you a license to any code in the repository under the [MIT License](https://opensource.org/licenses/MIT), see the
-[LICENSE-CODE](LICENSE-CODE) file.
+# Getting Started <a name="Getting-Started"></a>
+This repository is arranged as submodules so you can either pull all the tutorials or simply the ones you want. 
+To pull all the tutorials run:
 
-Microsoft, Windows, Microsoft Azure and/or other Microsoft products and services referenced in the documentation
-may be either trademarks or registered trademarks of Microsoft in the United States and/or other countries.
-The licenses for this project do not grant you rights to use any Microsoft names, logos, or trademarks.
-Microsoft's general trademark guidelines can be found at http://go.microsoft.com/fwlink/?LinkID=254653.
 
-Privacy information can be found at https://privacy.microsoft.com/en-us/
+```bash
+git clone --recurse-submodules https://github.com/microsoft/ai
+```
 
-Microsoft and any contributors reserve all other rights, whether under their respective copyrights, patents,
-or trademarks, whether by implication, estoppel or otherwise.
+if you have git older than 2.13 run:
+
+```bash
+git clone --recursive https://github.com/microsoft/ai.git
+```
+
+To pull a single submodule (e.g. DeployDeepModelKubernetes) run:
+```
+git clone https://github.com/microsoft/ai
+cd ai
+git submodule init submodules/DeployDeepModelKubernetes
+git submodule update
+```
+
+# [Azure SQL Migration Demos](./azsql-migration-demos)<a name="azsqlmigrationdemo"></a>
+Updated: 06/12/2020 <br>
+I will demonstrate how to utilize the Data Migration Service (DMS) to Migrate from On-Premise SQL to the following Azure SQL PaaS Offerings:  
+
+# [Azure SQL Performance Tuning Demo](./azsql-performance-tuning-demos)<a name="azsqlperformancedemo"></a>
+Updated: 06/12/2020 <br>
+These demos discuss the monitoring Azure SQL Databases using Metrics and diagnostics logging, Query performance Insight, Azure SQL Analytics for Advance performance Monitoring, and contrast this with On-premise vs PaaS approaches 
+
+# [Azure SQL MI CLR Demo](./azsqlmi-clr-demo)<a name="azsqlmiclrdemo"></a>
+Updated: 06/12/2020 <br>
+This demo will cover how to deploy a CLR Assembly to SQL Managed Instance
+
+# [Azure SQL Database DB (Coming Soon)](./azsql-migration-demos)<a name="azsqldbdemo"></a>
+
+# [Azure Elastic Scale Demo(Coming Soon)](./azsql-migration-demos)<a name="azelasticscaledemo"></a>
+
+# [Azure Hyper Scale Demo(Coming Soon)](./azsql-migration-demos)<a name="azhyperscaledemo"></a>
+
+# [Azure Synapse Demo(Coming Soon)](./azsql-migration-demos)<a name="azsynapsedemo"></a>
+
+
+# [Azure Synapse Demo(Coming Soon)](./azsql-migration-demos)<a name="azsynapsedemo"></a>
